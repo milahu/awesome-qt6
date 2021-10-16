@@ -39,7 +39,25 @@ apps using qt6 via [pyside6](https://github.com/topics/pyside6) in python:
 ## related
 
 * https://download.qt.io/official_releases/qt/6.2/ source code for qt 6.2 LTS
-* https://www.qt.io/blog/qt-roadmap-for-2021 
+* https://www.qt.io/blog/qt-roadmap-for-2021
+* https://github.com/gentoo/qt/pull/224 qt6 in gentoo linux
+* https://archlinux.org/packages/extra/x86_64/qt6-base/ qt6 in arch linux. see qt6 apps in `Required By`
+   * drumkv1
+   * poppler-qt6
+   * python-pyqt6
+   * qjackctl
+   * qmidictl
+   * qmidinet
+   * qmmp
+   * qsampler
+   * qscintilla-qt6
+   * qsynth
+   * qtkeychain-qt6
+   * qtractor
+   * qxgedit
+   * samplv1
+   * strawberry = music player
+   * synthv1
 
 ## qt5 and older
 
