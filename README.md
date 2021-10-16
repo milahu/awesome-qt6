@@ -40,3 +40,11 @@ apps using qt6 via [pyside6](https://github.com/topics/pyside6) in python:
 
 * https://download.qt.io/official_releases/qt/6.2/ source code for qt 6.2 LTS
 * https://www.qt.io/blog/qt-roadmap-for-2021 
+
+## qt5 and older
+
+* https://github.com/JesseTG/awesome-qt
+* https://github.com/mikalv/awesome-qt-qml
+* https://github.com/fffaraz/awesome-qt
+* https://github.com/JulienGrv/awesome-python-qt
+* https://github.com/insideqt/awesome-qt
