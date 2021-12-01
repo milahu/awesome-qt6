@@ -27,7 +27,7 @@ this only works for simple qmake projects, more complex qmake projects must be c
 * http://qmmp.ylsoftware.com/ music player, similar to winamp or xmms
 * https://github.com/trialuser02/qt6ct Qt6 Configuration Tool
 * https://github.com/QtExcel/QXlsx spreadsheet editor
-* https://github.com/euler0/mini-cmake-qt cmake project template
+* https://github.com/euler0/mini-cmake-qt cmake project template, requires QML
 * https://github.com/stiglers-eponym/BeamerPresenter pdf viewer
 * https://github.com/Bollos00/LibreMines minesweeper game
 * https://github.com/Constantor/fractals3d fractals viewer
