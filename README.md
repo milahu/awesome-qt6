@@ -6,7 +6,7 @@ migrating apps from qt5 to qt6 is non-trivial due to changed api, so only few ap
 
 C++ apps using qt6. also qt is written in C++
 
-* [qt6 repos on github](https://github.com/search?p=3&q=qt6&type=Repositories)
+* [qt6 repos on github](https://github.com/search?q=qt6&type=Repositories)
 * [qt6 topic on github](https://github.com/topics/qt6)
 
 ### projects using QMake build system
@@ -18,12 +18,14 @@ this only works for simple qmake projects, more complex qmake projects must be c
 
 * https://github.com/luebking/qarma cli tool to show simple gui dialogs (clone of vanity for gtk)
   * qt5compat dependency
+* https://github.com/dail8859/NotepadNext
+* https://github.com/KinectToVR/k2vr-application
+* https://github.com/trialuser02/qt6gtk2
 
 ### projects using CMake build system
 
 * https://github.com/easymodo/qimgv image viewer
 * https://github.com/strawberrymusicplayer/strawberry music player, based on amarok and clementine, similar to foobar2000
-
 * http://qmmp.ylsoftware.com/ music player, similar to winamp or xmms
 * https://github.com/trialuser02/qt6ct Qt6 Configuration Tool
 * https://github.com/QtExcel/QXlsx spreadsheet editor
