@@ -24,6 +24,8 @@ this only works for simple qmake projects, more complex qmake projects must be c
 
 ### projects using CMake build system
 
+* https://github.com/telegramdesktop/tdesktop Telegram Desktop messaging app
+  * using cmake_helpers https://github.com/desktop-app/cmake_helpers/blob/master/external/qt/qt6/CMakeLists.txt
 * https://github.com/easymodo/qimgv image viewer
 * https://github.com/strawberrymusicplayer/strawberry music player, based on amarok and clementine, similar to foobar2000
 * http://qmmp.ylsoftware.com/ music player, similar to winamp or xmms
