@@ -52,6 +52,14 @@ this only works for simple qmake projects, more complex qmake projects must be c
 * https://github.com/matijakevic/mcircuit digital logic circuit simulator
 * https://github.com/zaghaghi/pixel-model-maker pixel art editor
 * https://github.com/juzzlin/Heimer mindmaps, diagrams, notes
+* https://github.com/qbittorrent/qBittorrent torrent client
+* https://github.com/tsujan/Kvantum qt theme engine, based on SVG graphics
+* https://github.com/rncbc/drumkv1 drumkit sampler
+  * https://github.com/rncbc/padthv1 synthesizer
+* https://github.com/fcitx/fcitx-qt5 input method framework
+* https://git.jami.net/savoirfairelinux/jami-libclient p2p messaging
+* https://github.com/desktop-app/libdbusmenu-qt Qt implementation of the DBusMenu protocol. The DBusMenu protocol makes it possible for applications to export and import their menus over DBus.
+* https://poppler.freedesktop.org/ PDF rendering library
 
 ## python
 
@@ -75,22 +83,38 @@ apps using qt6 via [pyside6](https://github.com/topics/pyside6) in python:
 * https://www.qt.io/blog/qt-roadmap-for-2021
 * https://github.com/gentoo/qt/pull/224 qt6 in gentoo linux
 * https://archlinux.org/packages/extra/x86_64/qt6-base/ qt6 in arch linux. see qt6 apps in `Required By`
-   * drumkv1
-   * poppler-qt6
-   * python-pyqt6
-   * qjackctl
-   * qmidictl
-   * qmidinet
-   * qmmp
-   * qsampler
-   * qscintilla-qt6
-   * qsynth
-   * qtkeychain-qt6
-   * qtractor
-   * qxgedit
-   * samplv1
-   * strawberry = music player
-   * synthv1
+  * ~~drumkv1~~
+  * ~~fcitx-qt6~~
+  * ~~jami-libclient~~
+  * ~~kvantum~~
+  * ~~libdbusmenu-qt6~~
+  * ~~padthv1~~
+  * poppler-qt6
+  * ~~python-pyqt6~~
+  * ~~qbittorrent~~
+  * ~~qbittorrent-nox~~ (headless qbittorrent)
+  * qcoro-qt6
+  * qjackctl
+  * qmidictl
+  * qmidinet
+  * ~~qmmp~~
+  * qpwgraph
+  * qsampler
+  * qscintilla-qt6
+  * qsynth
+  * qtkeychain-qt6
+  * qtractor
+  * qtspell
+  * qxgedit
+  * samplv1
+  * ~~shiboken6~~ (pyside6)
+  * ~~strawberry~~
+  * synthv1
+  * fcitx5-qt
+  * fcitx-qt5
+  * libdbusmenu-qt
+  * poppler
+  * qcoro
 
 ## qt5 and older
 
