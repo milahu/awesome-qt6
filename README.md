@@ -79,7 +79,7 @@ apps using qt6 via [pyside6](https://github.com/topics/pyside6) in python:
 
 ## related
 
-* https://download.qt.io/official_releases/qt/6.2/ source code for qt 6.2 LTS
+* https://download.qt.io/official_releases/qt/ source code for qt, qmake, qml (qtdeclarative), pyside, shiboken
 * https://www.qt.io/blog/qt-roadmap-for-2021
 * https://github.com/gentoo/qt/pull/224 qt6 in gentoo linux
 * https://archlinux.org/packages/extra/x86_64/qt6-base/ qt6 in arch linux. see qt6 apps in `Required By`
