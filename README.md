@@ -16,6 +16,20 @@ qmake is deprecated in favor of cmake, but still supported in qt6
 we can convert qmake projects to cmake projects with [pro2cmake.py](https://code.qt.io/cgit/qt/qtbase.git/tree/util/cmake/pro2cmake.py) from qtbase.
 this only works for simple qmake projects, more complex qmake projects must be converted by hand
 
+* [pyqt6](https://www.riverbankcomputing.com/software/pyqt)
+  * implemented in C++ and QML
+  * download from pypi: https://pypi.org/project/PyQt6/
+  * pyqt is built with [pyqt-builder](https://www.riverbankcomputing.com/software/pyqt-builder/), which uses qmake
+    * [self.qmake = self._find_exe('qmake')](https://www.riverbankcomputing.com/hg/PyQt-builder/file/tip/pyqtbuild/builder.py#l65)
+  * [Pyqtdeploy plan for the end of qmake?](https://www.riverbankcomputing.com/pipermail/pyqt/2020-April/042834.html)
+    * "PyQt6 will require SIP v6 which will include a cmake builder (to replace 
+      the qmake builder in PyQt-builder)."
+  * [Bug#964127: plplot: Please switch from sip4 to sip5](https://www.mail-archive.com/search?l=debian-bugs-dist@lists.debian.org&q=subject:%22Bug%23964127%5C%3A+plplot%5C%3A+Please+switch+from+sip4+to+sip5%22&o=newest&f=1)
+    * "My approach abuses the SIP's build system. sip-build generates a .pro file
+      for qmake and tries to run qmake by default. I decided that it's better to
+      rely on CMake to do the actual compilation (e.g. so that all compiler flags
+      are honored), so I pass --no-build to sip-build and then copy the .cpp and
+      .h files it generated to CMake's build directory, then let CMake build them."
 * https://github.com/luebking/qarma cli tool to show simple gui dialogs (clone of vanity for gtk)
   * qt5compat dependency
 * https://github.com/dail8859/NotepadNext
