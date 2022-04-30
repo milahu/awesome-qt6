@@ -94,12 +94,14 @@ python apps using qt6 via pyqt6:
 * https://github.com/gentoo/qt/pull/224 qt6 in gentoo linux
 * https://archlinux.org/packages/extra/x86_64/qt6-base/ qt6 in arch linux. see qt6 apps in `Required By`
   * ~~drumkv1~~
+    * ~~padthv1~~
+    * samplv1
+    * synthv1
   * ~~fcitx-qt6~~
   * ~~jami-libclient~~
   * ~~kvantum~~
   * ~~libdbusmenu-qt6~~
-  * ~~padthv1~~
-  * poppler-qt6
+  * ~~poppler-qt6~~
   * ~~python-pyqt6~~
   * ~~qbittorrent~~
   * ~~qbittorrent-nox~~ (headless qbittorrent)
@@ -116,15 +118,8 @@ python apps using qt6 via pyqt6:
   * qtractor
   * qtspell
   * qxgedit
-  * samplv1
   * ~~shiboken6~~ (pyside6)
   * ~~strawberry~~
-  * synthv1
-  * fcitx5-qt
-  * fcitx-qt5
-  * libdbusmenu-qt
-  * poppler
-  * qcoro
 
 ## qt5 and older
 
