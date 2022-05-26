@@ -18,7 +18,6 @@ C++ apps using qt6. also qt is written in C++
 * http://qmmp.ylsoftware.com/ music player, similar to winamp or xmms
 * https://github.com/trialuser02/qt6ct Qt6 Configuration Tool
 * https://github.com/QtExcel/QXlsx spreadsheet editor
-* https://github.com/euler0/mini-cmake-qt cmake project template, requires QML
 * https://github.com/stiglers-eponym/BeamerPresenter pdf viewer
 * https://github.com/Bollos00/LibreMines minesweeper game
 * https://github.com/Constantor/fractals3d fractals viewer
@@ -33,6 +32,14 @@ C++ apps using qt6. also qt is written in C++
 * https://git.jami.net/savoirfairelinux/jami-libclient p2p messaging
 * https://github.com/desktop-app/libdbusmenu-qt Qt implementation of the DBusMenu protocol. The DBusMenu protocol makes it possible for applications to export and import their menus over DBus.
 * https://poppler.freedesktop.org/ PDF rendering library
+
+#### project templates with CMake
+
+* https://github.com/Andrew9317/qt-cmake-template minimal. vanilla C++
+* https://github.com/euler0/mini-cmake-qt requires QML = qtdeclarative
+* https://github.com/zethon/CppCCQTemplate ready for more complex projects. with Conan C++ package manager
+
+related: qt6 docs on cmake: https://doc.qt.io/qt-6/cmake-get-started.html
 
 ### projects using QMake build system
 
