@@ -9,6 +9,31 @@ C++ apps using qt6. also qt is written in C++
 * [qt6 repos on github](https://github.com/search?q=qt6&type=Repositories)
 * [qt6 topic on github](https://github.com/topics/qt6)
 
+### projects using CMake build system
+
+* https://github.com/telegramdesktop/tdesktop Telegram Desktop messaging app
+  * using cmake_helpers https://github.com/desktop-app/cmake_helpers/blob/master/external/qt/qt6/CMakeLists.txt
+* https://github.com/easymodo/qimgv image viewer
+* https://github.com/strawberrymusicplayer/strawberry music player, based on amarok and clementine, similar to foobar2000
+* http://qmmp.ylsoftware.com/ music player, similar to winamp or xmms
+* https://github.com/trialuser02/qt6ct Qt6 Configuration Tool
+* https://github.com/QtExcel/QXlsx spreadsheet editor
+* https://github.com/euler0/mini-cmake-qt cmake project template, requires QML
+* https://github.com/stiglers-eponym/BeamerPresenter pdf viewer
+* https://github.com/Bollos00/LibreMines minesweeper game
+* https://github.com/Constantor/fractals3d fractals viewer
+* https://github.com/matijakevic/mcircuit digital logic circuit simulator
+* https://github.com/zaghaghi/pixel-model-maker pixel art editor
+* https://github.com/juzzlin/Heimer mindmaps, diagrams, notes
+* https://github.com/qbittorrent/qBittorrent torrent client
+* https://github.com/tsujan/Kvantum qt theme engine, based on SVG graphics
+* https://github.com/rncbc/drumkv1 drumkit sampler
+  * https://github.com/rncbc/padthv1 synthesizer
+* https://github.com/fcitx/fcitx-qt5 input method framework
+* https://git.jami.net/savoirfairelinux/jami-libclient p2p messaging
+* https://github.com/desktop-app/libdbusmenu-qt Qt implementation of the DBusMenu protocol. The DBusMenu protocol makes it possible for applications to export and import their menus over DBus.
+* https://poppler.freedesktop.org/ PDF rendering library
+
 ### projects using QMake build system
 
 qmake is deprecated in favor of cmake, but still supported in qt6
@@ -35,31 +60,6 @@ this only works for simple qmake projects, more complex qmake projects must be c
 * https://github.com/dail8859/NotepadNext
 * https://github.com/KinectToVR/k2vr-application
 * https://github.com/trialuser02/qt6gtk2
-
-### projects using CMake build system
-
-* https://github.com/telegramdesktop/tdesktop Telegram Desktop messaging app
-  * using cmake_helpers https://github.com/desktop-app/cmake_helpers/blob/master/external/qt/qt6/CMakeLists.txt
-* https://github.com/easymodo/qimgv image viewer
-* https://github.com/strawberrymusicplayer/strawberry music player, based on amarok and clementine, similar to foobar2000
-* http://qmmp.ylsoftware.com/ music player, similar to winamp or xmms
-* https://github.com/trialuser02/qt6ct Qt6 Configuration Tool
-* https://github.com/QtExcel/QXlsx spreadsheet editor
-* https://github.com/euler0/mini-cmake-qt cmake project template, requires QML
-* https://github.com/stiglers-eponym/BeamerPresenter pdf viewer
-* https://github.com/Bollos00/LibreMines minesweeper game
-* https://github.com/Constantor/fractals3d fractals viewer
-* https://github.com/matijakevic/mcircuit digital logic circuit simulator
-* https://github.com/zaghaghi/pixel-model-maker pixel art editor
-* https://github.com/juzzlin/Heimer mindmaps, diagrams, notes
-* https://github.com/qbittorrent/qBittorrent torrent client
-* https://github.com/tsujan/Kvantum qt theme engine, based on SVG graphics
-* https://github.com/rncbc/drumkv1 drumkit sampler
-  * https://github.com/rncbc/padthv1 synthesizer
-* https://github.com/fcitx/fcitx-qt5 input method framework
-* https://git.jami.net/savoirfairelinux/jami-libclient p2p messaging
-* https://github.com/desktop-app/libdbusmenu-qt Qt implementation of the DBusMenu protocol. The DBusMenu protocol makes it possible for applications to export and import their menus over DBus.
-* https://poppler.freedesktop.org/ PDF rendering library
 
 ## python
 
