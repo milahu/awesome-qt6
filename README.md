@@ -38,6 +38,7 @@ C++ apps using qt6. also qt is written in C++
 * https://github.com/Andrew9317/qt-cmake-template minimal. vanilla C++
 * https://github.com/euler0/mini-cmake-qt requires QML = qtdeclarative
 * https://github.com/zethon/CppCCQTemplate ready for more complex projects. with Conan C++ package manager
+* https://github.com/milahu/qt6-project-template minimal. qt cli app + qt gui app
 
 related: qt6 docs on cmake: https://doc.qt.io/qt-6/cmake-get-started.html
 
