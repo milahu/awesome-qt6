@@ -15,7 +15,7 @@ C++ apps using qt6. also qt is written in C++
   * using cmake_helpers https://github.com/desktop-app/cmake_helpers/blob/master/external/qt/qt6/CMakeLists.txt
 * https://github.com/easymodo/qimgv image viewer
 * https://github.com/strawberrymusicplayer/strawberry music player, based on amarok and clementine, similar to foobar2000
-* http://qmmp.ylsoftware.com/ music player, similar to winamp or xmms
+* [qmmp.ylsoftware.com](http://qmmp.ylsoftware.com/) music player, similar to winamp or xmms
 * https://github.com/trialuser02/qt6ct Qt6 Configuration Tool
 * https://github.com/QtExcel/QXlsx spreadsheet editor
 * https://github.com/stiglers-eponym/BeamerPresenter pdf viewer
@@ -31,7 +31,7 @@ C++ apps using qt6. also qt is written in C++
 * https://github.com/fcitx/fcitx-qt5 input method framework
 * https://git.jami.net/savoirfairelinux/jami-libclient p2p messaging
 * https://github.com/desktop-app/libdbusmenu-qt Qt implementation of the DBusMenu protocol. The DBusMenu protocol makes it possible for applications to export and import their menus over DBus.
-* https://poppler.freedesktop.org/ PDF rendering library
+* [poppler.freedesktop.org](https://poppler.freedesktop.org/) PDF rendering library
 
 #### project templates with CMake
 
@@ -77,6 +77,15 @@ this only works for simple qmake projects, more complex qmake projects must be c
 
 python apps using qt6 via pyside6:
 
+* [pyside6 reverse dependencies](https://www.wheelodex.org/projects/pyside6/rdepends/)
+  * [canaveral](https://www.wheelodex.org/projects/canaveral/) Quickly find and open applications and files
+  * [eternal-radio-player](https://www.wheelodex.org/projects/eternal-radio-player/) A desktop app for the online radio station Eternal Radio
+  * [fime](https://www.wheelodex.org/projects/fime/) Simple time tracking app written with Python and Qt
+  * [four-letter-blocks](https://www.wheelodex.org/projects/four-letter-blocks/) Crossword puzzle assembled from blocks of four letters
+  * [mindfulness-at-the-computer](https://www.wheelodex.org/projects/mindfulness-at-the-computer/) Helps you stay mindful of your breathing while using your computer.
+  * [neverlate](https://www.wheelodex.org/projects/neverlate/) In your face notifications you can't miss for Google Calendar Events.
+  * [pygithubmanager](https://www.wheelodex.org/projects/pygithubmanager/) GitHub desktop version created with Python
+  * [tfm](https://www.wheelodex.org/projects/tfm/) A simple and Qt file manager for Linux
 * [pyside6 repos on github](https://github.com/search?q=pyside6&type=Repositories)
 * [pyside6 topic on github](https://github.com/topics/pyside6)
 * https://github.com/UGLYclown999/Apollo music player
@@ -91,16 +100,26 @@ python apps using qt6 via pyside6:
 
 python apps using qt6 via pyqt6:
 
+* [pyqt6 reverse dependencies](https://www.wheelodex.org/projects/pyqt6/rdepends/)
+  * [corrscope](https://www.wheelodex.org/projects/corrscope/) render wave files into oscilloscope views
+  * [fractalshades](https://www.wheelodex.org/projects/fractalshades/) Fractal deep-zoom explorer package for Mandelbrot fractal
+  * [jackal-commander](https://www.wheelodex.org/projects/jackal-commander/) simple file manager
+  * [jdanimatedimageeditor](https://www.wheelodex.org/projects/jdanimatedimageeditor/) A simple program for creating animated Images
+  * [jddiff](https://www.wheelodex.org/projects/jddiff/) A graphical cross platform diff viewer
+  * [jdtextedit](https://www.wheelodex.org/projects/jdtextedit/) A powerful texteditor with a lot of features
+  * [notes2py](https://www.wheelodex.org/projects/notes2py/) PyQt app to manage your notes
+  * [rsstube](https://www.wheelodex.org/projects/rsstube/) A simple desktop application for Youtube, based on RSS feeds.
+  * [vispy](https://www.wheelodex.org/projects/vispy/) Interactive visualization in Python
 * [pyqt6 repos on github](https://github.com/search?q=pyqt6&type=Repositories)
 * [pyqt6 topic on github](https://github.com/topics/pyqt6)
 * https://github.com/mherrmann/fbs Create Python GUIs with Qt in minutes
 
 ## related
 
-* https://download.qt.io/official_releases/qt/ source code for qt, qmake, qml (qtdeclarative), pyside, shiboken
+* [qt](https://download.qt.io/official_releases/qt/) source code for qt, qmake, qml (qtdeclarative), pyside, shiboken
 * https://www.qt.io/blog/qt-roadmap-for-2021
 * https://github.com/gentoo/qt/pull/224 qt6 in gentoo linux
-* https://archlinux.org/packages/extra/x86_64/qt6-base/ qt6 in arch linux. see qt6 apps in `Required By`
+* [qt6-base](https://archlinux.org/packages/extra/x86_64/qt6-base/) qt6 in arch linux. see qt6 apps in `Required By`
   * ~~drumkv1~~
     * ~~padthv1~~
     * samplv1
