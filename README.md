@@ -63,7 +63,7 @@ this only works for simple qmake projects, more complex qmake projects must be c
       rely on CMake to do the actual compilation (e.g. so that all compiler flags
       are honored), so I pass --no-build to sip-build and then copy the .cpp and
       .h files it generated to CMake's build directory, then let CMake build them."
-* https://github.com/luebking/qarma cli tool to show simple gui dialogs (clone of vanity for gtk)
+* https://github.com/luebking/qarma cli tool to show simple gui dialogs (clone of Zanity for gtk)
   * qt5compat dependency
 * https://github.com/dail8859/NotepadNext
 * https://github.com/KinectToVR/k2vr-application
